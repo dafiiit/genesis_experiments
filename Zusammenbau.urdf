@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Zusammenbau">
+    <link name="Lasercut-Bein-v4_1">
+        <inertial>
+            <origin xyz="-7.732513815916776e-09 -0.029593108750116903 0.00969999999999997" rpy="0.0 -0.0 0.0" />
+            <mass value="0.10052712077422415" />
+            <inertia ixx="5.756968816404196e-05" iyy="7.802639793603192e-06" izz="6.495346495441918e-05" ixy="1.7491960679384688e-11" iyz="-5.421010862427522e-20" ixz="0.0" />
+        </inertial>
+        <visual name="Lasercut-Bein-v4_visual_1">
+            <origin xyz="0.0 6.106226635438361e-18 0.012199999999999971" rpy="-0.0 1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Lasercut-Bein-v4_collision_1">
+            <origin xyz="0.0 6.106226635438361e-18 0.012199999999999971" rpy="-0.0 1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Lasercut-Bein-v4_2">
+        <inertial>
+            <origin xyz="-7.732513802594099e-09 -0.029593108750116916 0.009699999999999988" rpy="0.0 -0.0 0.0" />
+            <mass value="0.10052712077422415" />
+            <inertia ixx="5.756968816404207e-05" iyy="7.802639793603409e-06" izz="6.495346495441923e-05" ixy="1.7491960706489743e-11" iyz="2.710505431213761e-20" ixz="5.421010862427522e-20" />
+        </inertial>
+        <visual name="Lasercut-Bein-v4_visual_2">
+            <origin xyz="1.7763568394002505e-17 5.551115123125783e-18 0.012199999999999997" rpy="-0.0 1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Lasercut-Bein-v4_collision_2">
+            <origin xyz="1.7763568394002505e-17 5.551115123125783e-18 0.012199999999999997" rpy="-0.0 1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Simplified-Body-v5">
+        <inertial>
+            <origin xyz="-9.069781144017234e-12 0.011212337995359445 -0.0011157121807291311" rpy="0.0 0.0 0.0" />
+            <mass value="8.078195204080657" />
+            <inertia ixx="0.01414825495666961" iyy="0.01794786646058807" izz="0.01161148565624303" ixy="-1.196013774368557e-12" iyz="-0.00010121621754653205" ixz="-4.671915868799006e-12" />
+        </inertial>
+        <visual name="Simplified-Body-v5_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/Simplified-Body-v5.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Simplified-Body-v5_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/Simplified-Body-v5.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Lasercut-Bein-v4_3">
+        <inertial>
+            <origin xyz="-7.732513798153206e-09 0.02959310875011689 0.009699999999999988" rpy="0.0 -0.0 0.0" />
+            <mass value="0.10052712077422415" />
+            <inertia ixx="5.756968816404196e-05" iyy="7.8026397936033e-06" izz="6.495346495441912e-05" ixy="-1.7491960706489743e-11" iyz="-5.421010862427522e-20" ixz="5.421010862427522e-20" />
+        </inertial>
+        <visual name="Lasercut-Bein-v4_visual_3">
+            <origin xyz="2.2204460492503132e-17 -4.996003610813204e-18 0.007199999999999998" rpy="-3.141592653589793 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Lasercut-Bein-v4_collision_3">
+            <origin xyz="2.2204460492503132e-17 -4.996003610813204e-18 0.007199999999999998" rpy="-3.141592653589793 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Lasercut-Bein-v4_4">
+        <inertial>
+            <origin xyz="-7.73251382479856e-09 0.02959310875011689 0.009699999999999988" rpy="0.0 -0.0 0.0" />
+            <mass value="0.10052712077422415" />
+            <inertia ixx="5.756968816404196e-05" iyy="7.8026397936033e-06" izz="6.495346495441918e-05" ixy="-1.7491960706489743e-11" iyz="-5.421010862427522e-20" ixz="0.0" />
+        </inertial>
+        <visual name="Lasercut-Bein-v4_visual_4">
+            <origin xyz="-4.440892098500626e-18 -4.996003610813204e-18 0.007199999999999998" rpy="-3.141592653589793 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Lasercut-Bein-v4_collision_4">
+            <origin xyz="-4.440892098500626e-18 -4.996003610813204e-18 0.007199999999999998" rpy="-3.141592653589793 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/Lasercut-Bein-v4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="Simplified-Body-v5_Revolute-1" type="revolute">
+        <origin xyz="-0.054000000000000006 -0.004 -0.0385" rpy="-0.0 -1.5707963267948966 0" />
+        <parent link="Simplified-Body-v5" />
+        <child link="Lasercut-Bein-v4_1" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Simplified-Body-v5_Revolute-2" type="revolute">
+        <origin xyz="-0.054000000000000006 -0.004 0.0385" rpy="-0.0 -1.5707963267948966 0" />
+        <parent link="Simplified-Body-v5" />
+        <child link="Lasercut-Bein-v4_2" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Simplified-Body-v5_Revolute-3" type="revolute">
+        <origin xyz="0.054000000000000006 -0.004 -0.0385" rpy="-3.141592653589793 -1.5707963267948966 0" />
+        <parent link="Simplified-Body-v5" />
+        <child link="Lasercut-Bein-v4_3" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="Simplified-Body-v5_Revolute-4" type="revolute">
+        <origin xyz="0.054000000000000006 -0.004 0.0385" rpy="-3.141592653589793 -1.5707963267948966 0" />
+        <parent link="Simplified-Body-v5" />
+        <child link="Lasercut-Bein-v4_4" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+</robot>
